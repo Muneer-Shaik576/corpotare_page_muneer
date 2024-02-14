@@ -1,0 +1,87 @@
+@media only screen and (max-width:767.99px) {
+    /* top header starts*/
+    .header-top .contact-details{
+       justify-content: center;
+        height: 15px;
+    }
+    /* top header ends*/
+
+
+    /* banner section starts*/
+    .banner-img{
+    height: 400px;
+    }
+    .banner-content{
+    padding-top: 100px;
+    }
+    .banner-content h2{
+        font-size: 5vw;
+    }
+    p.content{
+        font-size: 4vw;
+    }
+    .banner-content p{
+        font-size: 15px;
+    }
+    .banner-content .button{
+        font-size: 15px;
+        
+    }
+    /* banner section ends*/
+
+    /* training section starts*/
+    .training-needs h2{
+        font-size: 4vw;
+    }
+    .training-needs .card-text {
+        font-size: 12px;
+    }
+    /* training section ends*/
+   
+    /* courses section starts*/
+    .courses h2{
+        font-size: 4vw;
+    }
+    /* courses section ends*/
+    
+    /* features section starts*/
+    .features h2{
+        font-size: 4vw;
+    }
+    .feature-1{
+        flex-direction: column;
+    }
+    .feature-3{
+        flex-direction: column;
+    }
+    .feature-1 .customization {
+        margin-right: 0;
+    } 
+    .feature-1 .support {
+        margin-left: 0;
+    } 
+    .feature-3 .analysis{
+        margin-right: 0;
+    }
+    .feature-3 .projects{
+        margin-left: 0;
+    }
+    .card-title h6{
+        font-size: 15px;
+    }
+    .card-body p{
+        font-size: 14px;
+    }
+    /* features section ends*/
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    
+    .training-needs .card-text {
+        font-size: 12px;
+    }
+
+
+}

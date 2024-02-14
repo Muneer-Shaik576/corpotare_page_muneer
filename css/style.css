@@ -1,0 +1,597 @@
+body {
+	background: #fff none repeat scroll 0 0;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+	-webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+/* top header starts*/
+.header-top{
+    background-color: #072044;
+
+}
+
+
+ul{
+    padding: 0;
+}
+li{
+    padding: 0;
+    list-style: none;
+}
+.contact-details{
+    padding-top: 15px;
+}
+.contact-details li a{
+    color: #ffffff;
+    padding: 15px 15px 15px 0;
+    font-size: 20px;
+}
+.contact-details li a:focus-visible{
+    outline-offset: -20px;
+}
+.contact-details li a span{
+    font-size: 16px;
+}
+.contact-details li a:hover{
+    color:  #2BACE2;
+    text-decoration: none;
+}
+.social-media{
+    padding: 10px 0px 0px 10px;
+}
+.social-icons li a{
+    color: #ffffff;
+    padding: 15px;
+    font-size: 15px;
+}
+.social-icons li a:hover{
+    color: #2BACE2;
+    text-decoration: none;
+}
+.social-icons{
+    border-right: 1px solid white;
+}
+
+.btnc {
+    background-color: #2BACE2;
+    border-radius: 6px;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+.btnc a{
+    font-size: 16px;
+}
+/* top header ends*/
+
+/* navbar section starts*/
+.custom-nav-bar{
+    background-color: #fff;
+}
+
+.custom-nav-bar nav{
+    padding: 0;
+}
+.navbar-nav   .nav{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar-nav .dropdown-menu {
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0,0,0,25%);
+    border: 1px solid #eee;
+    margin-top: -1px;
+}
+.navbar-nav .nav:hover {
+    color: #2BACE2;
+    text-decoration: none;
+}
+.dropdown-menu{
+    width: 300px;
+    font-size: 15px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-item a{
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.dropdown-item a:hover{
+    text-decoration: none;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-submenu span{
+    display: block;
+    float: right;
+}
+.dropdown .down-arrow{
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* navbar section ends*/
+
+/* banner section starts*/
+.banner-img{
+    background-image:url("../images/banner-image.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;  
+}
+.banner-img::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.banner-content{
+    padding-top: 150px;
+    color: #fff;
+}
+.banner-content h2{
+    font-size: 50px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+p.line::after{
+    content: "";
+    width: 36px;
+    height: 3px;
+    background-color: #2BACE2;
+    position: absolute;
+    bottom: 0;
+}
+.line1::after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: #2BACE2;
+    position: absolute;
+    bottom: 0;
+    left: 38px;
+}
+.line2::after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: #2BACE2;
+    position: absolute;
+    bottom: 0;
+    left: 43px;
+}
+p.content{
+    font-size: 28px;
+}
+
+.banner-content .button{
+    background-color: #2cabe1;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    
+}
+.banner-content .button:hover{
+    text-decoration: none;
+}
+/* banner section ends*/
+
+/* training section starts*/
+.training-needs {
+    padding: 20px 0 75px 0;
+}
+.training-needs h2{
+   display: flex;
+   justify-content: center;
+    padding: 50px 0;
+    position: relative;
+    text-align: center;
+}
+.training-needs h2::after{
+    content: "";
+    width: 36px;
+    height: 3px;
+    position: absolute;
+    background-color: #2BACE2;
+    bottom: 32px;
+    left: 48%;
+   
+}
+.training-needs .line1::after{
+    bottom: 32px;
+    margin-left: 38px;
+    left: 48%;
+}
+.training-needs .line2::after{
+    bottom: 32px;
+    left: 48%;
+    margin-left: 43px;
+}
+.training-needs .card{
+    box-shadow: 0px 0px 10px  rgba(0,0,0,25%);
+    height: 275px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.training-needs .card-img-top{
+    height: 200px;
+    padding: 30px;
+}
+.training-needs .card-text{
+    font-size: 18px;
+}
+/* training section ends*/
+
+/* courses section starts*/
+.courses {
+    background-color:#2BACE2;
+    padding: 0px 0 50px 0;
+}
+.courses h2{
+    color: white;
+    padding: 50px; 
+    text-align: center;
+}
+
+.courses .card{
+    height: 75px;
+    border-radius: 8px;
+    margin-bottom:50px;
+}
+.courses .card-img-top{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+.courses .card-body{
+    padding-left: 0px;
+}
+.courses .card p{
+    color: #2BACE2;
+}
+/* courses section ends*/
+
+/* features section starts*/
+.features {
+    padding:50px 0 50px 0;
+}
+.glob-img{
+    background-image: url("../images/globe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 38px;
+}
+.features h2{
+    padding: 50px; 
+    text-align: center;
+    position: relative;
+}
+.features h2::after{
+    content: "";
+    width: 36px;
+    height: 3px;
+    position: absolute;
+    background-color: #2BACE2;
+    bottom: 33px;
+    left: 48%;
+}
+.features .line1::after{
+    bottom: 33px;
+    margin-left: 38px;
+    left: 48%;
+}
+.features .line2::after{
+    bottom: 33px;
+    margin-left: 43px;
+    left: 48%;
+}
+
+.features .card-img-top{
+    height: 60px;
+    width: 60px;
+    padding: 10px 0 0 20px;
+}
+.features .card{
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px  rgba(0,0,0,25%);
+    text-align: left;
+}
+.features .card h6{
+    padding:20px ;
+    color: #2BACE2;
+}
+.feature-1 .customization {
+    margin-right: 20px;
+} 
+.feature-1 .support {
+    margin-left: 20px;
+} 
+.feature-3 .analysis{
+    margin-right: 20px;
+}
+.feature-3 .projects{
+    margin-left: 20px;
+}
+.custom-card {
+
+    top: 18%;
+    position: relative;
+    margin-bottom: 100px;
+}
+/* features section ends*/
+
+/* form section starts*/
+.enroll-form{
+    background-image:url("../images/banner-image.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px 0 50px 0;
+}
+.custom-form{
+    background-color: #fff;
+    padding: 30px;
+}
+form .row{
+    margin-bottom: 20px;
+}
+.custom-form h4{
+    padding-bottom: 10px;
+    position: relative;
+}
+.custom-form h4::after{
+    content: "";
+    width: 36px;
+    height: 3px;
+    position: absolute;
+    background-color: #2BACE2;
+    bottom: 0;
+    left: 0;
+}
+.custom-form .line1::after{
+    left: 38px;
+}
+.custom-form .line2::after{
+
+    left: 43px;
+}
+
+.custom-form button{
+    background-color: #2cabe1;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    width: 200px;
+   position: relative;
+   
+
+}
+/* form section ends*/
+
+/* footer section starts*/
+.footer{
+    background-color: #07294D;
+}
+.custom-footer{
+    padding: 100px 0;
+}
+    
+.footer-logo img{
+ 
+   max-width: 100%;
+}
+.contact-info li{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    list-style: none;
+}
+.contact-info li svg{
+    font-size: 18px;
+    vertical-align: middle;
+    max-width: 30px;
+    width: 100%;
+    text-align: center;
+    margin-right: 15px;
+}
+.d-block{
+    margin-bottom: 10px;
+}
+.footer .d-block a {
+    color: #fff;
+}
+.footer .d-block a:hover{
+    text-decoration: none;
+    color:#2BACE2;
+}
+.contact-num{
+    margin-bottom: 10px;
+}
+.footer .contact-num a{
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.useful-links h6{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.useful-links ul li a svg{
+    margin-right: 10px;
+}
+.useful-links ul li a {
+    color: #fff;
+    line-height: 3;
+    font-size: 14px;
+   
+}
+.useful-links ul li a:hover{
+    text-decoration: none;
+    color: #2BACE2;
+    padding-left: 6px;
+    transition: all 0.5 ease;
+}
+.trend-course-title{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+   
+}
+.course-list li{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+    list-style: none;
+}
+.course-img{
+    float: left;
+    margin-right: 10px;
+    max-width: 60px;
+}
+.course-img img{
+    height: 34px;
+    width: 60px;
+    vertical-align: middle;
+    border-style: none;
+}
+.course-content{
+    overflow: hidden;
+}
+.course-content h6{
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.course-content h6 a{
+    color: #fff;
+}
+.course-content h6 a:hover{
+    color: #2BACE2;
+    text-decoration: none;
+}
+.start-date{
+    color: rgba(255,255,255,0.6);
+    font-size: 80%;
+}
+
+.newsletter{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
+.connect-with-email {
+    position: relative;
+    margin-bottom: 20px;
+}
+.subscription input{
+    padding: 10px 105px 10px 15px;
+    width: 100%;
+    border: 0;
+    color: #777777;
+    height: 43px;
+}
+.subscription button{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.subscription button:hover{
+    text-decoration: none;
+}
+.subscription .btn-default{
+    background-color: #2BACE2;
+    color: #fff;
+    padding: 7px 15px;
+}
+.social-media-icons li{
+    display: inline-block;
+    padding: 2px 3px;
+
+}
+.social-media-icons li a{
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    border-color: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+/* footer section ends*/
+
+/* bottom footer section starts*/
+.bottom-footer{
+    padding: 30px 0;
+    position: relative;
+    background-color: #072044;
+}
+.rights{
+    color: #fff;
+}
+/* bottom footer section ends*/
